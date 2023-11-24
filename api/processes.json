@@ -1,0 +1,496 @@
+[
+        {
+            "content_type": "Single Review",
+            "suggested_word_count": 1800,
+            "suggested_video_length": 5,
+            "suggested_bounty": 125,
+            "media_type": "text",
+            "distribution_method": [
+                "Website,Platform,Document"
+            ],
+            "frequency": [
+                "Select Frequency",
+                "Daily",
+                "3x Per Week",
+                "Weekly",
+                "2x Per Month",
+                "Monthly"
+            ],
+            "starting_day": [
+                "Select Day",
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            ],
+            "short_description": "Write a 500 word review of a specific product",
+            "process_description": "Find an interesting article related to our keywords",
+            "editorial_guidelines": [
+                "http://www.dropboxurl.com/link/to/editorial/guidelines/link1",
+                "http://www.dropboxurl.com/link/to/editorial/guidelines/link2",
+                "http://www.dropboxurl.com/link/to/editorial/guidelines/link3"
+            ],
+            "created": "2020-03-24T10:09:08.935Z",
+            "modified": "2020-03-24T10:09:08.935Z",
+            "__v": 0
+        },
+        {
+            "content_type": "Long Form Article",
+            "suggested_word_count": 0,
+            "suggested_video_length": 0,
+            "suggested_bounty": 25,
+            "media_type": "text",
+            "distribution_method": [
+                "Website,Platform,Document"
+            ],
+            "frequency": [
+                "Select Frequency",
+                "Daily",
+                "3x Per Week",
+                "Weekly",
+                "2x Per Month",
+                "Monthly"
+            ],
+            "starting_day": [
+                "Select Day",
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            ],
+            "short_description": "Write a 1,000 - 2,500 word article",
+            "process_description": "Write an article using provided keywords, titles, products and links",
+            "editorial_guidelines": [
+                "http://www.dropboxurl.com/link/to/editorial/guidelines/link1",
+                "http://www.dropboxurl.com/link/to/editorial/guidelines/link2",
+                "http://www.dropboxurl.com/link/to/editorial/guidelines/link3"
+            ],
+            "created": "2020-03-24T10:09:18.946Z",
+            "modified": "2020-03-24T10:09:18.946Z",
+            "__v": 0
+        },
+        {
+            "content_type": "Roundup Review",
+            "suggested_word_count": 0,
+            "suggested_video_length": 0,
+            "suggested_bounty": 25,
+            "media_type": "text",
+            "distribution_method": [
+                "Website,Platform,Document"
+            ],
+            "frequency": [
+                "Select Frequency",
+                "Daily",
+                "3x Per Week",
+                "Weekly",
+                "2x Per Month",
+                "Monthly"
+            ],
+            "starting_day": [
+                "Select Day",
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            ],
+            "short_description": "Compare and Contrast 5 Products",
+            "process_description": "Find an interesting article related to our keywords",
+            "editorial_guidelines": [
+                "http://www.dropboxurl.com/link/to/editorial/guidelines/link1",
+                "http://www.dropboxurl.com/link/to/editorial/guidelines/link2",
+                "http://www.dropboxurl.com/link/to/editorial/guidelines/link3"
+            ],
+            "created": "2020-03-24T10:09:18.948Z",
+            "modified": "2020-03-24T10:09:18.948Z",
+            "__v": 0
+        },
+        {
+            "content_type": "Info Content",
+            "suggested_word_count": 0,
+            "suggested_video_length": 0,
+            "suggested_bounty": 25,
+            "media_type": "text",
+            "distribution_method": [
+                "Website,Platform,Document"
+            ],
+            "frequency": [
+                "Select Frequency",
+                "Daily",
+                "3x Per Week",
+                "Weekly",
+                "2x Per Month",
+                "Monthly"
+            ],
+            "starting_day": [
+                "Select Day",
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            ],
+            "short_description": "Repost an image related to these keywords",
+            "process_description": "Find an interesting article related to our keywords",
+            "editorial_guidelines": [
+                "http://www.dropboxurl.com/link/to/editorial/guidelines/link1",
+                "http://www.dropboxurl.com/link/to/editorial/guidelines/link2",
+                "http://www.dropboxurl.com/link/to/editorial/guidelines/link3"
+            ],
+            "created": "2020-03-24T10:09:18.951Z",
+            "modified": "2020-03-24T10:09:18.951Z",
+            "__v": 0
+        },
+        {
+            "content_type": "Alternatives",
+            "suggested_word_count": 0,
+            "suggested_video_length": 0,
+            "suggested_bounty": 25,
+            "media_type": "text",
+            "distribution_method": [
+                "Website,Platform,Document"
+            ],
+            "frequency": [
+                "Select Frequency",
+                "Daily",
+                "3x Per Week",
+                "Weekly",
+                "2x Per Month",
+                "Monthly"
+            ],
+            "starting_day": [
+                "Select Day",
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            ],
+            "short_description": "Look at alternatives to a popular product",
+            "process_description": "Find an interesting article related to our keywords",
+            "editorial_guidelines": [
+                "http://www.dropboxurl.com/link/to/editorial/guidelines/link1",
+                "http://www.dropboxurl.com/link/to/editorial/guidelines/link2",
+                "http://www.dropboxurl.com/link/to/editorial/guidelines/link3"
+            ],
+            "created": "2020-03-24T10:09:18.955Z",
+            "modified": "2020-03-24T10:09:18.955Z",
+            "__v": 0
+        },
+        {
+            "content_type": "This vs. That",
+            "suggested_word_count": 0,
+            "suggested_video_length": 0,
+            "suggested_bounty": 25,
+            "media_type": "text",
+            "distribution_method": [
+                "Website,Platform,Document"
+            ],
+            "frequency": [
+                "Select Frequency",
+                "Daily",
+                "3x Per Week",
+                "Weekly",
+                "2x Per Month",
+                "Monthly"
+            ],
+            "starting_day": [
+                "Select Day",
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            ],
+            "short_description": "Repost an image related to these keywords",
+            "process_description": "Find an interesting article related to our keywords",
+            "editorial_guidelines": [
+                "http://www.dropboxurl.com/link/to/editorial/guidelines/link1",
+                "http://www.dropboxurl.com/link/to/editorial/guidelines/link2",
+                "http://www.dropboxurl.com/link/to/editorial/guidelines/link3"
+            ],
+            "created": "2020-03-24T10:09:18.957Z",
+            "modified": "2020-03-24T10:09:18.957Z",
+            "__v": 0
+        },
+        {
+            "content_type": "Question Post",
+            "suggested_word_count": 0,
+            "suggested_video_length": 0,
+            "suggested_bounty": 25,
+            "media_type": "text",
+            "distribution_method": [
+                "Website,Platform,Document"
+            ],
+            "frequency": [
+                "Select Frequency",
+                "Daily",
+                "3x Per Week",
+                "Weekly",
+                "2x Per Month",
+                "Monthly"
+            ],
+            "starting_day": [
+                "Select Day",
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            ],
+            "short_description": "Answer a question",
+            "process_description": "Find an interesting article related to our keywords",
+            "editorial_guidelines": [
+                "http://www.dropboxurl.com/link/to/editorial/guidelines/link1",
+                "http://www.dropboxurl.com/link/to/editorial/guidelines/link2",
+                "http://www.dropboxurl.com/link/to/editorial/guidelines/link3"
+            ],
+            "created": "2020-03-24T10:09:18.959Z",
+            "modified": "2020-03-24T10:09:18.959Z",
+            "__v": 0
+        },
+        {
+            "content_type": "How To Post",
+            "suggested_word_count": 0,
+            "suggested_video_length": 0,
+            "suggested_bounty": 25,
+            "media_type": "text",
+            "distribution_method": [
+                "Website,Platform,Document"
+            ],
+            "frequency": [
+                "Select Frequency",
+                "Daily",
+                "3x Per Week",
+                "Weekly",
+                "2x Per Month",
+                "Monthly"
+            ],
+            "starting_day": [
+                "Select Day",
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            ],
+            "short_description": "Repost an image related to these keywords",
+            "process_description": "Find an interesting article related to our keywords",
+            "editorial_guidelines": [
+                "http://www.dropboxurl.com/link/to/editorial/guidelines/link1",
+                "http://www.dropboxurl.com/link/to/editorial/guidelines/link2",
+                "http://www.dropboxurl.com/link/to/editorial/guidelines/link3"
+            ],
+            "created": "2020-03-24T10:09:18.961Z",
+            "modified": "2020-03-24T10:09:18.961Z",
+            "__v": 0
+        },
+        {
+            "content_type": "Industry Roundup",
+            "suggested_word_count": 0,
+            "suggested_video_length": 0,
+            "suggested_bounty": 25,
+            "media_type": "text",
+            "distribution_method": [
+                "Website,Platform,Document"
+            ],
+            "frequency": [
+                "Select Frequency",
+                "Daily",
+                "3x Per Week",
+                "Weekly",
+                "2x Per Month",
+                "Monthly"
+            ],
+            "starting_day": [
+                "Select Day",
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            ],
+            "short_description": "Do an industry review",
+            "process_description": "Find an interesting article related to our keywords",
+            "editorial_guidelines": [
+                "http://www.dropboxurl.com/link/to/editorial/guidelines/link1",
+                "http://www.dropboxurl.com/link/to/editorial/guidelines/link2",
+                "http://www.dropboxurl.com/link/to/editorial/guidelines/link3"
+            ],
+            "created": "2020-03-24T10:09:18.963Z",
+            "modified": "2020-03-24T10:09:18.963Z",
+            "__v": 0
+        },
+        {
+            "content_type": "Link Share Post",
+            "suggested_word_count": 0,
+            "suggested_video_length": 0,
+            "suggested_bounty": 25,
+            "media_type": "text",
+            "distribution_method": [
+                "Website,Platform,Document"
+            ],
+            "frequency": [
+                "Select Frequency",
+                "Daily",
+                "3x Per Week",
+                "Weekly",
+                "2x Per Month",
+                "Monthly"
+            ],
+            "starting_day": [
+                "Select Day",
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            ],
+            "short_description": "Repost an image related to these keywords",
+            "process_description": "Find an interesting article related to our keywords",
+            "editorial_guidelines": [
+                "http://www.dropboxurl.com/link/to/editorial/guidelines/link1",
+                "http://www.dropboxurl.com/link/to/editorial/guidelines/link2",
+                "http://www.dropboxurl.com/link/to/editorial/guidelines/link3"
+            ],
+            "created": "2020-03-24T10:09:18.965Z",
+            "modified": "2020-03-24T10:09:18.965Z",
+            "__v": 0
+        },
+        {
+            "content_type": "Animated Explainer",
+            "suggested_word_count": 0,
+            "suggested_video_length": 0,
+            "suggested_bounty": 25,
+            "media_type": "video",
+            "distribution_method": [
+                "Website,Platform,Document"
+            ],
+            "frequency": [
+                "Select Frequency",
+                "Daily",
+                "3x Per Week",
+                "Weekly",
+                "2x Per Month",
+                "Monthly"
+            ],
+            "starting_day": [
+                "Select Day",
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            ],
+            "short_description": "Create an animated explained",
+            "process_description": "Find an interesting article related to our keywords",
+            "editorial_guidelines": [
+                "http://www.dropboxurl.com/link/to/editorial/guidelines/link1",
+                "http://www.dropboxurl.com/link/to/editorial/guidelines/link2",
+                "http://www.dropboxurl.com/link/to/editorial/guidelines/link3"
+            ],
+            "created": "2020-03-24T10:09:18.967Z",
+            "modified": "2020-03-24T10:09:18.967Z",
+            "__v": 0
+        },
+        {
+            "content_type": "On Screen Persona",
+            "suggested_word_count": 0,
+            "suggested_video_length": 0,
+            "suggested_bounty": 25,
+            "media_type": "video",
+            "distribution_method": [
+                "Website,Platform,Document"
+            ],
+            "frequency": [
+                "Select Frequency",
+                "Daily",
+                "3x Per Week",
+                "Weekly",
+                "2x Per Month",
+                "Monthly"
+            ],
+            "starting_day": [
+                "Select Day",
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            ],
+            "short_description": "Video with live video",
+            "process_description": "Find an interesting article related to our keywords",
+            "editorial_guidelines": [
+                "http://www.dropboxurl.com/link/to/editorial/guidelines/link1",
+                "http://www.dropboxurl.com/link/to/editorial/guidelines/link2",
+                "http://www.dropboxurl.com/link/to/editorial/guidelines/link3"
+            ],
+            "created": "2020-03-24T10:09:18.969Z",
+            "modified": "2020-03-24T10:09:18.969Z",
+            "__v": 0
+        },
+        {
+            "content_type": "Podcast",
+            "suggested_word_count": 0,
+            "suggested_video_length": 0,
+            "suggested_bounty": 25,
+            "media_type": "audio",
+            "distribution_method": [
+                "Website,Platform,Document"
+            ],
+            "frequency": [
+                "Select Frequency",
+                "Daily",
+                "3x Per Week",
+                "Weekly",
+                "2x Per Month",
+                "Monthly"
+            ],
+            "starting_day": [
+                "Select Day",
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            ],
+            "short_description": "Produce a podcast",
+            "process_description": "Find an interesting article related to our keywords",
+            "editorial_guidelines": [
+                "http://www.dropboxurl.com/link/to/editorial/guidelines/link1",
+                "http://www.dropboxurl.com/link/to/editorial/guidelines/link2",
+                "http://www.dropboxurl.com/link/to/editorial/guidelines/link3"
+            ],
+            "created": "2020-03-24T10:09:18.971Z",
+            "modified": "2020-03-24T10:09:18.971Z",
+            "__v": 0
+        }
+   ]

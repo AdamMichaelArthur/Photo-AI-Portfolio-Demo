@@ -1,0 +1,13 @@
+timekeeper
+
+{
+	sessions:[
+		{
+			_start: ISODate,
+			_end: ISODate,
+			_jurisdiction: Number,
+			_minimumPay: Number
+			_bExceededMaximum: Boolean
+		}
+	]
+}

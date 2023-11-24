@@ -1,0 +1,58 @@
+[
+	{
+		"skills" : "site_speed",
+		"description" : "This skill requires the skill to analyze and optimizie site speed",
+		"skill_keywords" : [ "speed"]
+	]
+	},
+	{
+		"skills" : "technical_seo",
+		"description" : "This skill requires the ability to perform a technical seo analysis of a page and to implement improvements and fixes",
+		"skill_keywords" : ["seo", "technical" ]
+	},	
+	{
+		"skills" : "prospect_list",
+		"description" : "This skill requires the ability to use aHrefs to produce a prospect list of email addresses for the purposes of building links for a particualr piece of content",
+		"skill_keywords" : ["email", "ahrefs" ]
+	}, 	
+	{
+		"skills" : "mail_merge",
+		"description" : "This skill requires the ability to take a list of email addresses and create a reasonably sophisticated email campaign in MailShake",
+		"skill_keywords" : [ "mail", "shake"]
+	},	
+	{
+		"skills" : "script_writing",
+		"description" : "This skill requires the ability to read and understand a piece of content and write a script that presents the content visually through video",
+		"skill_keywords" : ["script", "script writing"]
+	}, 	
+	{
+		"skills" : "voice_acting",
+		"description" : "This skill requires the ability to read and record a voice over script",
+		"skill_keywords" : ["voice over", "voice acting"]
+	},	
+	{
+		"skills" : "filming",
+		"description" : "This skill requires the ability to read a script and film the live action portions of the script",
+		"skill_keywords" : ["acting", "videography"]
+	},	
+	{
+		"skills" : "video_editing",
+		"description" : "This skill requires the ability to combine a script, voice over and filmed content and produce it into a final, produced video ready for uploading",
+		"skill_keywords" : ["after effects", "premiere pro" ]
+	}, 	
+	{
+		"skills" : "youtube_seo",
+		"description" : "This requires the ability to watch a video and optimize the various settings used for uploading a YouTube video, including hashtags and other tasks required to increase the chance the video will rank.",
+		"skill_keywords" : ["youtube seo"]
+	}, 	
+	{
+		"skills" : "youtube_uploading",
+		"description" : "This skill requires the ability to upload a YouTube video",
+		"skill_keywords" : ["uploading"]
+	}, 	
+	{
+		"skills" : "html",
+		"description" : "This requires the ability to modify HTML at a text markup level.",
+		"skill_keywords" : ["html"]
+	}
+]

@@ -1,0 +1,20 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "scripts": {
+    "start": "node teleprompter.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "keypress": "^0.2.1",
+    "mongodb": "^5.5.0",
+    "obs-websocket-js": "^5.0.3",
+    "robotjs": "^0.6.0"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25"
+  }
+}

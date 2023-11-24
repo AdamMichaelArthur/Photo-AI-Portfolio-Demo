@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E1280B12B110C4200C376FC /* Photo_AI_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1280B02B110C4200C376FC /* Photo_AI_DemoApp.swift */; };
+		8E1280B32B110C4200C376FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1280B22B110C4200C376FC /* ContentView.swift */; };
+		8E1280B52B110C4400C376FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E1280B42B110C4400C376FC /* Assets.xcassets */; };
+		8E1280B82B110C4400C376FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E1280B72B110C4400C376FC /* Preview Assets.xcassets */; };
+		8E1280BA2B110C4400C376FC /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1280B92B110C4400C376FC /* Persistence.swift */; };
+		8E1280BD2B110C4400C376FC /* Photo_AI_Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8E1280BB2B110C4400C376FC /* Photo_AI_Demo.xcdatamodeld */; };
+		AB76B528B06492F0BCCEC841 /* Pods_Photo_AI_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B12ADD60B64400A233FF383 /* Pods_Photo_AI_Demo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8367AE09D52C4220724536A6 /* Pods-Photo AI Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photo AI Demo.debug.xcconfig"; path = "Target Support Files/Pods-Photo AI Demo/Pods-Photo AI Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		8B12ADD60B64400A233FF383 /* Pods_Photo_AI_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Photo_AI_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1280AD2B110C4200C376FC /* Photo AI Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photo AI Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E1280B02B110C4200C376FC /* Photo_AI_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo_AI_DemoApp.swift; sourceTree = "<group>"; };
+		8E1280B22B110C4200C376FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8E1280B42B110C4400C376FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E1280B72B110C4400C376FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8E1280B92B110C4400C376FC /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		8E1280BC2B110C4400C376FC /* Photo_AI_Demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Photo_AI_Demo.xcdatamodel; sourceTree = "<group>"; };
+		FD68EE406B8286CFF21EF98E /* Pods-Photo AI Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Photo AI Demo.release.xcconfig"; path = "Target Support Files/Pods-Photo AI Demo/Pods-Photo AI Demo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E1280AA2B110C4200C376FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB76B528B06492F0BCCEC841 /* Pods_Photo_AI_Demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58D034E110626C4B18BA7238 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B12ADD60B64400A233FF383 /* Pods_Photo_AI_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E1280A42B110C4200C376FC = {
+			isa = PBXGroup;
+			children = (
+				8E1280AF2B110C4200C376FC /* Photo AI Demo */,
+				8E1280AE2B110C4200C376FC /* Products */,
+				E6CF9710B3421159107C209C /* Pods */,
+				58D034E110626C4B18BA7238 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8E1280AE2B110C4200C376FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E1280AD2B110C4200C376FC /* Photo AI Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E1280AF2B110C4200C376FC /* Photo AI Demo */ = {
+			isa = PBXGroup;
+			children = (
+				8E1280C52B110D0500C376FC /* Networking */,
+				8E1280C42B110D0000C376FC /* Models */,
+				8E1280C32B110CFA00C376FC /* Views */,
+				8E1280B02B110C4200C376FC /* Photo_AI_DemoApp.swift */,
+				8E1280B22B110C4200C376FC /* ContentView.swift */,
+				8E1280B42B110C4400C376FC /* Assets.xcassets */,
+				8E1280B92B110C4400C376FC /* Persistence.swift */,
+				8E1280BB2B110C4400C376FC /* Photo_AI_Demo.xcdatamodeld */,
+				8E1280B62B110C4400C376FC /* Preview Content */,
+			);
+			path = "Photo AI Demo";
+			sourceTree = "<group>";
+		};
+		8E1280B62B110C4400C376FC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8E1280B72B110C4400C376FC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8E1280C32B110CFA00C376FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8E1280C42B110D0000C376FC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8E1280C52B110D0500C376FC /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		E6CF9710B3421159107C209C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8367AE09D52C4220724536A6 /* Pods-Photo AI Demo.debug.xcconfig */,
+				FD68EE406B8286CFF21EF98E /* Pods-Photo AI Demo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E1280AC2B110C4200C376FC /* Photo AI Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E1280C02B110C4400C376FC /* Build configuration list for PBXNativeTarget "Photo AI Demo" */;
+			buildPhases = (
+				55BDA28BCB59199B3EFF6AB3 /* [CP] Check Pods Manifest.lock */,
+				8E1280A92B110C4200C376FC /* Sources */,
+				8E1280AA2B110C4200C376FC /* Frameworks */,
+				8E1280AB2B110C4200C376FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Photo AI Demo";
+			productName = "Photo AI Demo";
+			productReference = 8E1280AD2B110C4200C376FC /* Photo AI Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E1280A52B110C4200C376FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8E1280AC2B110C4200C376FC = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 8E1280A82B110C4200C376FC /* Build configuration list for PBXProject "Photo AI Demo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E1280A42B110C4200C376FC;
+			productRefGroup = 8E1280AE2B110C4200C376FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E1280AC2B110C4200C376FC /* Photo AI Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E1280AB2B110C4200C376FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1280B82B110C4400C376FC /* Preview Assets.xcassets in Resources */,
+				8E1280B52B110C4400C376FC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55BDA28BCB59199B3EFF6AB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Photo AI Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E1280A92B110C4200C376FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1280BA2B110C4400C376FC /* Persistence.swift in Sources */,
+				8E1280BD2B110C4400C376FC /* Photo_AI_Demo.xcdatamodeld in Sources */,
+				8E1280B32B110C4200C376FC /* ContentView.swift in Sources */,
+				8E1280B12B110C4200C376FC /* Photo_AI_DemoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8E1280BE2B110C4400C376FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E1280BF2B110C4400C376FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E1280C12B110C4400C376FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8367AE09D52C4220724536A6 /* Pods-Photo AI Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Photo AI Demo/Preview Content\"";
+				DEVELOPMENT_TEAM = JH8R92Q744;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "inbrainllc.Photo-AI-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8E1280C22B110C4400C376FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD68EE406B8286CFF21EF98E /* Pods-Photo AI Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Photo AI Demo/Preview Content\"";
+				DEVELOPMENT_TEAM = JH8R92Q744;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "inbrainllc.Photo-AI-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E1280A82B110C4200C376FC /* Build configuration list for PBXProject "Photo AI Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E1280BE2B110C4400C376FC /* Debug */,
+				8E1280BF2B110C4400C376FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E1280C02B110C4400C376FC /* Build configuration list for PBXNativeTarget "Photo AI Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E1280C12B110C4400C376FC /* Debug */,
+				8E1280C22B110C4400C376FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8E1280BB2B110C4400C376FC /* Photo_AI_Demo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8E1280BC2B110C4400C376FC /* Photo_AI_Demo.xcdatamodel */,
+			);
+			currentVersion = 8E1280BC2B110C4400C376FC /* Photo_AI_Demo.xcdatamodel */;
+			path = Photo_AI_Demo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8E1280A52B110C4200C376FC /* Project object */;
+}

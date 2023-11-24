@@ -1,0 +1,29 @@
+script.txt
+
+Hi ${result['First Name']}, my is Adam.
+
+I'm going to make this really short, I was searching private schools in ${result["Subdivision"]}, saw your website.  I just want to let you know we specialize in helping private schools get new enrollments.
+
+I'm fairly confident we can get ${result["Friendly Name"]} anywhere from twenty to forty new students that otherwise wouldn't have enrolled, based on the the results we're getting with our other private school customers.  
+
+I reached out to you specifically because based on the Google search results I'm seeing and what other schools are doing in the area, there's a good chance there's room for you to grow.
+
+If this is of any interest to you at all, I've included a Calendy link, feel free to book in a time we can chat.  Or if you prefer email that works as well. 
+
+Either way, thanks for watching.  Hope to talk soon.
+
+
+
+
+
+
+
+
+
+end
+
+
+
+
+
+end`

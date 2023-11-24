@@ -1,0 +1,11 @@
+
+
+db.users.update({"email":"admin@contentbounty.com"}, 
+	{
+		$set: {
+		"integrations.box.tokenStore": { 
+  accessToken: '9pD9tYlF0jVwD0oIR8BRpcq683NstY3Y',
+  refreshToken: 'jRFKQgoenb7kWllEd9ILKCxh26IpS1V6bG08XLcbFQsQVAbbJYMoUJrhPCXPOys5',
+  accessTokenTTLMS: 3839000,
+  acquiredAtMS: 1591115127557
+	  	} } })

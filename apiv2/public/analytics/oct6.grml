@@ -1,0 +1,363 @@
+<script src = "https://www.googletagmanager.com/gtag/js?id=G-W627HT5PTB" ></script>
+
+<script>
+async function loadGTM() {
+    (function(w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+            'gtm.start': new Date().getTime(),
+            event: 'gtm.js'
+        });
+        var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-TMJS45X');
+}
+</script>
+
+<script>
+
+    window.dataLayer = window.dataLayer || [];
+
+function gtag() {
+    dataLayer.push(arguments);
+}
+
+gtag('js', new Date());
+
+gtag('config', 'G-W627HT5PTB');
+
+//window.addEventListener('message', async function(event) {
+
+    // Handle the order confirmation by posting it to Google Analytics
+
+    if ("orderConfirmation" == "orderConfirmation") {
+        console.log(27, 'Order Number:', event.data["orderNumber"]);
+
+        // By passing null, this forces the getTrackingData function to use the orderNumber as the identifying record.
+        // It's done this way because we do not assume that a cookie has been placed in the browser where the order is placed
+        console.log(499, "Asking for tracking data");
+
+        var or = event.data["orderNumber"];
+        if(or === undefined){
+            or=
+        }
+
+        var tracking = await getTrackingData(null, {
+            "quote_ref": event.data["orderNumber"]
+        });
+console.log("Attemping to load GTM");
+try {
+        loadGTM();
+} catch(err){ console.log(601, "We got an error", err); }
+
+console.log(502, "GTM Should Be Loaded");
+        var order_reference = event.data["orderNumber"]
+
+        if (order_reference === undefined || order_reference === null) {
+            // Handle the case where order_reference is undefined or null
+            console.error(56, "Order reference is not defined or null.");
+            // ... any other handling logic you want
+            order_reference = "unable to extract order ref";
+
+            order_reference = params["quote_ref"];
+
+            if(order_reference === undefined){
+                order_reference = params["quote_id"];
+            }
+
+            console.log(66, order_reference);
+
+        } else {
+            // Continue processing with a valid order_reference
+            // ... your logic here
+        }
+
+        console.log(51, tracking);
+        try {
+            gtag('event', 'order_confirmation', tracking);
+        } catch (err) {
+            console.log(512, err);
+        }
+
+        console.log(513, {
+            transaction_id: event.data["orderNumber"],
+            value: tracking["quote_price"],
+            currency: "USD",
+            items: [{
+                item_id: "SKU_12345",
+                item_name: "Order Confirmation"
+            }]
+        });
+
+        let purchase_data = {
+            transaction_id: order_reference,
+            value: tracking["quote_price"],
+            currency: "USD",
+            items: [{
+                item_id: order_reference,
+                item_name: order_reference
+            }]
+        };
+
+        var utm_source = tracking["utm_source"];
+
+        if (utm_source === undefined || utm_source === null) {
+            console.error("utm_source is not defined or null.");
+        } else {
+            purchase_data["utm_source"] = utm_source;
+        }
+
+        var utm_medium = tracking["utm_medium"];
+
+        if (utm_medium === undefined || utm_medium === null) {
+            console.error("utm_medium is not defined or null.");
+        } else {
+            purchase_data["utm_medium"] = utm_medium;
+        }
+
+        var gclid = tracking["gclid"];
+        if (gclid === undefined || gclid === null) {
+            console.error("gclid is not defined or null.");
+        } else {
+            purchase_data["gclid"] = gclid;
+        }
+
+        gtag("event", "purchase", purchase_data);
+
+        // Notes -- the tracking object should contain everything contained in the database that has been collected on this transaction 
+    }
+
+//});
+
+document.addEventListener('DOMContentLoaded', async () => {
+
+    var updateQuotePriceTimer = null;
+
+    async function logAndObserve(element, messagePrefix) {
+        console.log(23, `${messagePrefix}:`, element.textContent.replace('$', '').trim());
+
+        let quote_price = element.textContent.replace('$', '').trim();
+        console.log(24, quote_price);
+
+        clearTimeout(updateQuotePriceTimer);
+
+        updateQuotePriceTimer = setTimeout(async () => {
+            console.log(33, "Called", quote_price);
+            let tracking = await getTrackingData(null, {
+                "quote_price": parseInt(quote_price)
+            });
+
+            //console.log(34, tracking);
+            setCookie('_id', tracking, '365');
+        }, 1000);
+
+        observer.observe(element, {
+            characterData: true,
+            childList: true,
+            subtree: true
+        });
+    }
+
+    // First, check if the element already exists in the DOM when the content is loaded.
+    let existingElement = document.querySelector('.shipping-rate');
+    if (existingElement) {
+        logAndObserve(existingElement, 'Existing Shipping Rate');
+    }
+
+    // Next, set up a MutationObserver to detect if the element is added or edited in the DOM afterward.
+    let observer = new MutationObserver(mutations => {
+        mutations.forEach(mutation => {
+            for (let node of mutation.addedNodes) {
+                if (!(node instanceof HTMLElement)) continue;
+
+                // If the node is added.
+                if (node.classList.contains('shipping-rate')) {
+                    logAndObserve(node, 'Newly Added Shipping Rate');
+                } else {
+                    // If a descendant is added.
+                    let descendent = node.querySelector('.shipping-rate');
+                    if (descendent) {
+                        logAndObserve(descendent, 'Newly Added Descendent Shipping Rate');
+                    }
+                }
+            }
+        });
+    });
+
+    // Start observing the body for added nodes and changes in the subtree.
+    observer.observe(document.body, {
+        childList: true,
+        subtree: true
+    });
+
+    var pathname = window.location.pathname;
+    if (pathname.includes('order-confirmation')) {
+        console.log("We are in the order confirmation page");
+        //return;
+    }
+
+    // Parse and extract all URL parameters
+    const urlParams = new URLSearchParams(window.location.search);
+    let paramsObject = {};
+    for (const [key, value] of urlParams.entries()) {
+        paramsObject[key] = value;
+    }
+
+    let cookieData = getCookie('_id');
+
+    let _id = "";
+
+    console.log(199, "Attemping to get tracking data")
+    let tracking = await getTrackingData(cookieData._id, paramsObject);
+
+    console.log(200, "Attemping to load GTM");
+    var pathname = window.location.pathname;
+
+    console.log(205, pathname)
+        if (pathname.includes('order')) {
+        console.log(207, "We should load GTM shortly");
+        console.log(206, "We are in the order confirmation page", pathname);
+        loadGTM();
+        //return;
+    }
+
+    console.log(21, tracking);
+
+    setCookie('_id', tracking, '365');
+
+// Check if there are existing parameters in the URL
+let separator = window.location.search ? "&" : "?";
+
+console.log(340, separator);
+
+// Append the UTM parameters and/or gclid to the URL
+var newUrl = window.location.href + separator;
+
+try {
+console.log(341, newUrl);
+} catch(err){ console.log(342, err); }
+
+var utm_source = tracking["utm_source"];
+
+        if (utm_source === undefined || utm_source === null) {
+            console.error("utm_source is not defined or null.");
+        } else {
+            newUrl += "&utm_source=" + utm_source;
+        }
+
+        var utm_medium = tracking["utm_medium"];
+
+        if (utm_medium === undefined || utm_medium === null) {
+            console.error("utm_medium is not defined or null.");
+        } else {
+            newUrl += "&utm_medium=" + utm_medium;
+        }
+
+        var gclid = tracking["gclid"];
+        if (gclid === undefined || gclid === null) {
+            console.error("gclid is not defined or null.");
+        } else {
+            newUrl += "&gclid=" + gclid;
+        }
+
+console.log(501, newUrl);
+// Update the browser's URL without a page reload
+history.replaceState(null, null, newUrl);
+    
+
+    if (tracking["_id"] !== 'undefined') {
+        _id = tracking["_id"];
+    }
+
+    if (_id) {
+        cookieData = tracking;
+    } else {
+
+    }
+
+});
+
+var endpoint = "https://https://www.nichesitexchange.com/api/public/analytics/"
+
+async function getTrackingData(_id, params) {
+
+    if (_id == null) {
+        if (typeof params["quote_ref"] === "undefined") {
+            let cookieData = getCookie('_id');
+            _id = cookieData["_id"];
+            console.log(111, _id);
+        }
+    }
+
+    console.log(112, params["quote_ref"]);
+
+    const url = 'https://www.nichesitexchange.com/api/public/analytics/getOrderTracking';
+
+    try {
+        console.log(551, "Making Network Request", url, {
+            _id,
+            ...params
+        });
+        const response = await fetch(url, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                _id,
+                ...params
+            }) // Send _id and params as JSON body
+        });
+
+        if (!response.ok) {
+            throw new Error('Network response was not ok ' + response.statusText);
+        }
+
+        const data = await response.json();
+
+        return data['cookie'];
+
+    } catch (error) {
+        console.error('There has been a problem with your fetch operation:', error);
+    }
+}
+
+function setCookie(name, value, days) {
+
+    let stringValue = JSON.stringify(value);
+
+    const date = new Date();
+    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+    const expires = 'expires=' + date.toUTCString();
+    document.cookie = name + '=' + stringValue + ';' + expires + ';path=/';
+}
+
+function getCookie(name) {
+    const nameEQ = name + '=';
+    const ca = document.cookie.split(';');
+    for (let i = 0; i < ca.length; i++) {
+        let c = ca[i];
+        while (c.charAt(0) === ' ') c = c.substring(1, c.length);
+        if (c.indexOf(nameEQ) === 0) {
+            let str = c.substring(nameEQ.length, c.length);
+            try {
+                let parsedCookie = JSON.parse(c.substring(nameEQ.length, c.length));
+                return parsedCookie;
+            } catch (err) {
+                //console.log(120, err);
+                return {
+                    "_id": null
+                };
+            }
+        }
+    }
+
+    return {
+        "_id": null
+    };
+} 
+</script>

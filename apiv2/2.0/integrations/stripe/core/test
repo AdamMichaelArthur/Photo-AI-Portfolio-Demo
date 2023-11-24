@@ -1,0 +1,7 @@
+import Core from './core.js'export default class Test extends Core {
+
+  constructor(){
+    super();
+  }
+
+}

@@ -1,0 +1,34 @@
+ReturnsParadise
+
+This brand is designed to solve a major problem that retailers, and especially e-commerce stores
+face: returns
+
+This product is simple.  The customer updates their return policy: customers must fill out the return
+form on their phone or mobile device, where they are directed and prompted to take pictures of the 
+item to be returned, they fill out the return reason, etc.
+
+The product is designed for both e-commerce and traditional retailers.  Traditional retailers
+can use the mobile app to quickly list the product.  When it sells, all they have to do is ship it out
+from the store.
+
+Or, the customer can complete the return through text
+
+On the returns site, they click phone.
+
+Then they get a text message
+
+Hi!  This is the return service for [Online Store]
+
+Our return policy is that you will get your refund regardless of the reason you are returning
+
+But, it would really help us if you gave us an accurate reason for the return
+
+Is the reason for your return that you changed your mind?  Reply yes or no
+If yes
+	->  Great, thank-you.  Now, please text 3 pictures of the item
+If no
+Is the reason because the item is broken?  Reply yes or no
+	->  We're really sorry about that.  The last step is to provide 3 pictures
+
+Ok, you're all set!  You will receive an e-mail in 5-7 days with the shipping label.
+Once you've shipped the item, we will issue your refund automatically.

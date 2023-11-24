@@ -1,0 +1,61 @@
+db.bounties.aggregate(
+      { $match: { "release_for_bounty": { "$gte": "2020-03-20T19:05:22.889Z" } } }
+  );
+
+  db.bounties.aggregate([
+    { $match: { "release_for_bounty": { "$gte": "2020-04-20T19:05:22.889Z" } } },
+    
+      { $project:{
+          brand_name:1,
+          content_type:1,
+          pipeline:1,
+          keywords:1,
+          process:1
+      }},
+      {"$unwind":"$process"},
+      {"$match":
+        { $and":
+          [  
+            {"process.bStatus": true},
+            {"process.pipeline":"unclaimed"},
+            {"process.skills":
+              { "$in": ["writing"]} 
+            }
+          ]
+        }
+      },
+     
+      { $project:{
+
+          brand_name:1,  
+          content_type:1,
+          bounty:"$process.bounty",
+          name:"$process.name",
+          description:"$process.description",
+          pipeline:1,
+          keywords:1,
+          completion_order:"$process.completion_order"
+      }},
+      { 
+        $replaceRoot: 
+          { 
+              newRoot: 
+                { 
+                  $mergeObjects: 
+                    [ 
+                      { 
+                        _id: "$_id", 
+                        brand_name: "$brand_name", 
+                        content_type:"$content_type",
+                        pipeline:"$pipeline",
+                        keywords:"$keywords",
+                        bounty:"$bounty",
+                        name:"$name",
+                        description:"$description",
+                        completion_order:"$completion_order"
+                      } 
+                    ] 
+                } 
+          }
+      }
+  ]);

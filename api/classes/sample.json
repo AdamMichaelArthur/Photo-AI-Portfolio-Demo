@@ -1,0 +1,299 @@
+{
+    "Result": "Success",
+    "Error": 0,
+    "ErrorDetails": {
+        "Error": 0,
+        "Description": "The operation was successful"
+    },
+    "bounty": [
+        {
+            "_id": "5e7c9fc59eb048fadeff0895",
+            "brand_name": "Too Cute For Me",
+            "release_for_bounty": "2020-03-31T13:27:49+02:00",
+            "spend": 0,
+            "content_type": "Single Review",
+            "keywords": [
+                "Select"
+            ],
+            "titles": [
+                "Select"
+            ],
+            "prompts": [
+                "Select"
+            ]
+        },
+        {
+            "_id": "5e7c9fc59eb048fadeff0896",
+            "brand_name": "Too Cute For Me",
+            "release_for_bounty": "2020-04-01T13:27:49+02:00",
+            "spend": 0,
+            "content_type": "Single Review",
+            "keywords": [
+                "Select"
+            ],
+            "titles": [
+                "Select"
+            ],
+            "prompts": [
+                "Select"
+            ]
+        },
+        {
+            "_id": "5e7c9fc59eb048fadeff0897",
+            "brand_name": "Too Cute For Me",
+            "release_for_bounty": "2020-04-02T13:27:49+02:00",
+            "spend": 0,
+            "content_type": "Single Review",
+            "keywords": [
+                "Select"
+            ],
+            "titles": [
+                "Select"
+            ],
+            "prompts": [
+                "Select"
+            ]
+        },
+        {
+            "_id": "5e7c9fc59eb048fadeff0898",
+            "brand_name": "Too Cute For Me",
+            "release_for_bounty": "2020-04-03T13:27:49+02:00",
+            "spend": 0,
+            "content_type": "Single Review",
+            "keywords": [
+                "Select"
+            ],
+            "titles": [
+                "Select"
+            ],
+            "prompts": [
+                "Select"
+            ]
+        },
+        {
+            "_id": "5e7c9fc59eb048fadeff0899",
+            "brand_name": "Too Cute For Me",
+            "release_for_bounty": "2020-04-04T13:27:49+02:00",
+            "spend": 0,
+            "content_type": "Single Review",
+            "keywords": [
+                "Select"
+            ],
+            "titles": [
+                "Select"
+            ],
+            "prompts": [
+                "Select"
+            ]
+        },
+        {
+            "_id": "5e7c9fc59eb048fadeff089a",
+            "brand_name": "Too Cute For Me",
+            "release_for_bounty": "2020-04-05T13:27:49+02:00",
+            "spend": 0,
+            "content_type": "Single Review",
+            "keywords": [
+                "Select"
+            ],
+            "titles": [
+                "Select"
+            ],
+            "prompts": [
+                "Select"
+            ]
+        },
+        {
+            "_id": "5e7c9fc59eb048fadeff089b",
+            "brand_name": "Too Cute For Me",
+            "release_for_bounty": "2020-04-06T13:27:49+02:00",
+            "spend": 0,
+            "content_type": "Single Review",
+            "keywords": [
+                "Select"
+            ],
+            "titles": [
+                "Select"
+            ],
+            "prompts": [
+                "Select"
+            ]
+        },
+        {
+            "_id": "5e7c9fc59eb048fadeff089c",
+            "brand_name": "Too Cute For Me",
+            "release_for_bounty": "2020-04-07T13:27:49+02:00",
+            "spend": 0,
+            "content_type": "Single Review",
+            "keywords": [
+                "Select"
+            ],
+            "titles": [
+                "Select"
+            ],
+            "prompts": [
+                "Select"
+            ]
+        },
+        {
+            "_id": "5e7c9fc59eb048fadeff089d",
+            "brand_name": "Too Cute For Me",
+            "release_for_bounty": "2020-04-08T13:27:49+02:00",
+            "spend": 0,
+            "content_type": "Single Review",
+            "keywords": [
+                "Select"
+            ],
+            "titles": [
+                "Select"
+            ],
+            "prompts": [
+                "Select"
+            ]
+        },
+        {
+            "_id": "5e7c9fc59eb048fadeff089e",
+            "brand_name": "Too Cute For Me",
+            "release_for_bounty": "2020-04-09T13:27:49+02:00",
+            "spend": 0,
+            "content_type": "Single Review",
+            "keywords": [
+                "Select"
+            ],
+            "titles": [
+                "Select"
+            ],
+            "prompts": [
+                "Select"
+            ]
+        }
+    ],
+    "pagination": {
+        "number_of_pages": 6,
+        "current_page": 1,
+        "previous_page": 1,
+        "next_page": 2,
+        "total_records": 60,
+        "next_page_endpoint": "http://localhost:3000/api/datasource/bounty/max_records/10//page/2/id/5e7c9fc59eb048fadeff089f",
+        "prev_page_endpoint": "http://localhost:3000/api/datasource/bounty/max_records/10//page/1/id/5e7c9fc59eb048fadeff0895",
+        "first_page_endpoint": "http://localhost:3000/api/datasource/bounty/max_records/10/",
+        "last_page_endpoint": "http://localhost:3000/api/datasource/bounty/max_records/10/",
+        "pages": [
+            {
+                "_id": "5e7c9fc59eb048fadeff0895",
+                "page_number": 1,
+                "page_endpoint": "http://localhost:3000/api/datasource/bounty/max_records/10//page/1/id/5e7c9fc59eb048fadeff0895"
+            },
+            {
+                "_id": "5e7c9fc59eb048fadeff089f",
+                "page_number": 2,
+                "page_endpoint": "http://localhost:3000/api/datasource/bounty/max_records/10//page/2/id/5e7c9fc59eb048fadeff089f"
+            },
+            {
+                "_id": "5e7c9fc59eb048fadeff08a9",
+                "page_number": 3,
+                "page_endpoint": "http://localhost:3000/api/datasource/bounty/max_records/10//page/3/id/5e7c9fc59eb048fadeff08a9"
+            },
+            {
+                "_id": "5e7c9fda9eb048fadeff08b3",
+                "page_number": 4,
+                "page_endpoint": "http://localhost:3000/api/datasource/bounty/max_records/10//page/4/id/5e7c9fda9eb048fadeff08b3"
+            },
+            {
+                "_id": "5e7c9fda9eb048fadeff08bd",
+                "page_number": 5,
+                "page_endpoint": "http://localhost:3000/api/datasource/bounty/max_records/10//page/5/id/5e7c9fda9eb048fadeff08bd"
+            },
+            {
+                "_id": "5e7c9fda9eb048fadeff08c7",
+                "page_number": 6,
+                "page_endpoint": "http://localhost:3000/api/datasource/bounty/max_records/10//page/6/id/5e7c9fda9eb048fadeff08c7"
+            }
+        ]
+    },
+    "headers": [
+        "brand_name",
+        "release_for_bounty",
+        "spend",
+        "content_type",
+        "keywords",
+        "titles",
+        "prompts"
+    ],
+    "displayHeaders": [
+        "Brand Name",
+        "Release For Bounty",
+        "Spend",
+        "Content Type",
+        "Keywords",
+        "Titles",
+        "Prompts"
+    ],
+    "addDataForm": [
+        {
+            "field_label": "Brand Name",
+            "field_name": "brand_name",
+            "type": "String",
+            "formType": {
+                "controlType": "text"
+            }
+        },
+        {
+            "field_label": "Release For Bounty",
+            "field_name": "release_for_bounty",
+            "type": "Date",
+            "formType": {
+                "controlType": "date"
+            }
+        },
+        {
+            "field_label": "Spend",
+            "field_name": "spend",
+            "type": "Number",
+            "formType": {
+                "controlType": "number"
+            }
+        },
+        {
+            "field_label": "Content Type",
+            "field_name": "content_type",
+            "type": "String",
+            "formType": {
+                "controlType": "text"
+            }
+        },
+        {
+            "field_label": "Keywords",
+            "field_name": "keywords",
+            "type": "Array",
+            "formType": {
+                "controlType": "select",
+                "options": [
+                    "Select"
+                ]
+            }
+        },
+        {
+            "field_label": "Titles",
+            "field_name": "titles",
+            "type": "Array",
+            "formType": {
+                "controlType": "select",
+                "options": [
+                    "Select"
+                ]
+            }
+        },
+        {
+            "field_label": "Prompts",
+            "field_name": "prompts",
+            "type": "Array",
+            "formType": {
+                "controlType": "select",
+                "options": [
+                    "Select"
+                ]
+            }
+        }
+    ],
+    "datasource": "bounty"
+}

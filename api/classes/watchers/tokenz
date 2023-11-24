@@ -1,0 +1,18 @@
+
+
+  db.users.update({"email":"admin@contentbounty.com"}, { $set: { "integrations.box.tokenStore": {    
+
+   accessToken: 'FAt35Icf8jC4J7zzgejx9kyC5dhpYqef',
+    refreshToken: 'XX7w5F8Wm7f5nMn0JF9oc7JQ3x3ieOWYmoRqwnA8GUBsZYPKzqfnO2TQ2g2L6aQH',
+    accessTokenTTLMS: 4043000,
+    acquiredAtMS: 1591437008772
+
+  } } })
+
+db.sidebarnavs.update({}, { $push: { navigation: 
+{
+      path: "writer_application",
+      icon: "content_paste",
+      title: "Application"
+}
+}}, {multi:true})

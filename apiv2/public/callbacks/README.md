@@ -1,0 +1,1 @@
+This folder is intended to be a single-source for any publicly exposed oAuth-related callback URL's
