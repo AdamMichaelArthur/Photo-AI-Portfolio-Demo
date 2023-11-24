@@ -129,11 +129,6 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-# Angular
-# Compiled JavaScript
-/**/*.js
-/**/*.js.map
-
 # React
 # Build/compiled files
 /build
